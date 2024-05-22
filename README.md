@@ -6,6 +6,6 @@ Homebrew custom tap repository
 ### purelogin
 
 ```shell
-brew tap pure-product-security/brew https://github.com/pure-product-security/brew
+brew tap purestorage/internal-brew https://github.com/purestorage/internal-brew
 brew install purelogin
 ```
