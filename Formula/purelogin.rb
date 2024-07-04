@@ -2,9 +2,9 @@ class Purelogin < Formula
   desc "Purelogin and Keymaster client binaries"
   homepage "https://github.com/pure-product-security/purelogin2"
 
-  url "https://artifactory.pstg-inf.net/artifactory/pstg-maven-official/com/purestorage/purelogin/1.3.24/purelogin-1.3.24-osx.tgz"
-  version "1.3.24"
-  sha256 "0ffd056fce108f2203671b940984aa13afb4a04b8d5e82c13a48f1ff9e8cbe34"
+  url "http://archive.dev.purestorage.com/product-security/purelogin/darwin/purelogin-1.3.33-osx.tgz"
+  version "1.3.33"
+  sha256 "e6e32175c6b8d456ecca330817eaca19a6854912ffd9d4fd00017d34f38bb31e"
 
   def install
     bin.install "purelogin", "keymaster"
